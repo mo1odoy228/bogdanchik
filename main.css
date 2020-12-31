@@ -1,0 +1,101 @@
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	margin: 0;
+	max-height: 80px;
+	height: 80px;
+	background-color: #0286E7;
+}
+
+.header__content {
+	padding: 1.45%;
+}
+
+.header__container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header__content-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__name {
+
+}
+
+.href1 {
+	color: white;
+	font-size: 35px;
+	transition: 0.3s;
+}
+
+.href1:hover {
+	color: #E26143;
+}
+
+.header__menu li {
+	display: inline-block;
+}
+
+.header__menu a {
+	display: inline-block;
+	color: white;
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 36px;
+	padding: 0px 16px;
+	transition: all 0.3s;
+}
+
+.header__menu a:hover {
+	color: #E26143;
+}
+
+.header__menu li + li {
+	padding-left: 10px;
+}
+
+ul, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+footer {
+	margin-top: 50px;
+	background-color: #222222;
+	color: white;
+	height: 180px;
+	display: flex;
+	justify-content: center;
+}
+
+.foot1 {
+	padding: 1.4%;
+}
+
+.foot2 {
+	padding: 1.4%;
+}
+
+footer div a {
+	text-decoration: none;
+	color: #A9A9A9;
+	transition: 0.3s;
+}
+
+footer div a:hover {
+	color: #E26143;
+}
+
